@@ -1,0 +1,142 @@
+@font-face {
+    font-family:my-font ;
+    src: url(CinzelDecorative-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: rgb(209, 243, 165);
+    border-radius: 15px;
+    box-shadow: 5px 7px 25px rgb(190, 241, 160);
+   
+}
+body{
+    background-color: black;
+  
+    color: white;
+    font-family: 'my-font';
+    font-size: 35px;
+}
+div{
+    background-color: black;
+  
+    color: white;
+    font-family: 'my-font';
+    font-size: 35px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+h1{
+    background-color: rgb(209, 243, 165);
+    border-radius: 15px;
+    box-shadow: 5px 7px 25px rgb(190, 241, 160);
+   
+}
+
+.content
+{
+    margin-top: 150px;
+    width: 900px;
+    height: 450px;
+    text-align:justify;
+    font-size: 25px;
+}
+.unique{
+    
+    color:  rgb(209, 243, 165);
+    font-weight: bolder;
+}
+
+@media  (max-width:700px) {
+    div{
+        
+        width: 90%;
+        
+    }
+    h1{
+        font-size: 30px;
+        width: 100%;
+       
+       
+    }
+    .content{
+        width: 70%;
+        height: auto;
+        font-size: 10px;
+        margin-top: 60px;
+        margin-left: 35px;
+ }
+ .card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .c1{
+    margin-bottom: 50px;
+    width: 70%;
+    height: 70%;
+
+ }
+ .card-cont{
+    margin-bottom: px;
+ }
+    
+}
+.card{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.c1{
+    width: 350px;
+    height: 350px;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px whitesmoke;
+    
+}
+.c1:hover{
+    transform: scale(1.1);
+}
+.card-cont{
+    position: relative;
+    top: 60%;
+    color:  rgb(248, 250, 245);
+    font-weight: 800;
+    
+}
+.footer
+{
+    background-color: rgb(209, 243, 165);
+    height: 80px;
+    margin-top: 150px;
+    width: 100%;
+    border-radius: 4px;
+}
+i{
+    padding: 7px;
+    margin-right: 10px;
+}
+.footer2{
+    margin-top: 0px;
+    background-color: rgb(209, 243, 165);
+    width: 100%;
+}
+.frc{
+    font-size: 14px;
+}
+.sig{
+    font-style: italic;
+    font-size: 14px;
+}
